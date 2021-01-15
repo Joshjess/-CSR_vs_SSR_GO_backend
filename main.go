@@ -35,7 +35,7 @@ func main() {
 	router := gin.Default()
 
 	router.Use(CORS())
-	router.Use(cors.Default())
+	//router.Use(cors.Default())
 	router.GET("/gethomepage", homePage)
 
 	// By default it serves on :8080 unless a
