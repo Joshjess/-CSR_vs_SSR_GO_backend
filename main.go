@@ -2,7 +2,7 @@ package main
 
 import "github.com/gin-gonic/gin"
 import "net/http"
-import "github.com/gin-contrib/cors"
+//import "github.com/gin-contrib/cors"
 
 
 func homePage(c *gin.Context){
